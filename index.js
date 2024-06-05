@@ -7,30 +7,30 @@ function getComputerChoice() {
 const computerChoice = getComputerChoice();
 console.log(computerChoice);
 
-function getHumanChoice(){
-
+function getHumanChoice() {
   let humanChoice = prompt("Choose rock, paper, scissors").toLocaleLowerCase();
 
-  while(humanChoice !== "rock" || humanChoice !== "paper" || humanChoice !== "scissors" || humanChoice === null){
-    alert("Please enter a valid option")
-    getComputerChoice();
+  while(humanChoice !== "rock" && humanChoice !== "paper" && humanChoice !== "scissors") {
+    alert("Please enter a valid option");
+    humanChoice = prompt("Choose rock, paper, scissors").toLocaleLowerCase();
   }
 
+  return humanChoice;
 }
-
-getHumanChoice();
-
-
-
 
 /*if(humanChoice === null){
     return null; // Si el usuario hace clic en cancelar en el cuadro de diálogo, detenemos la función.
   }
+*/
 
 
-  while(humanChoice !== "rock" || humanChoice !== "paper" || humanChoice !== "scissors"){
-    
-  }
-  */
+let humanScore = 0;
+let computerScore = 0;
+
+
+function playRound(humanChoice, computerChoice){
+
+  
+}
 
 
