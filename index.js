@@ -25,7 +25,6 @@ function getHumanChoice() {
 let humanScore = 0;
 let computerScore = 0;
 
-
 function playRound(humanChoice, computerChoice) {
 
   humanChoice = humanChoice.toLocaleLowerCase();
@@ -53,9 +52,25 @@ playRound(humanSelection, computerSelection);
 
 
 
+function playGame(){
+  
+  for(let i = 0; i < 4; i++){
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
 
+    playRound(humanSelection, computerSelection);
 
+  }
 
+  if(humanScore > computerScore){
+    alert("Congratulation! You won game");
+  }else{
+    alert("Oh no! You lose Game. Try Again!");
+    location.reload;
+  };
 
+}
 
+let result = playGame();
 
+console.log(result);
