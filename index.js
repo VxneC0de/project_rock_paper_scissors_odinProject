@@ -5,7 +5,6 @@ function getComputerChoice() {
 }
 
 const computerChoice = getComputerChoice();
-console.log(computerChoice);
 
 function getHumanChoice() {
   let humanChoice = prompt("Choose rock, paper, scissors").toLocaleLowerCase();
@@ -36,20 +35,12 @@ function playRound(humanChoice, computerChoice) {
     (humanChoice === "rock" && computerChoice === "scissors") || 
     (humanChoice === "paper" && computerChoice === "rock")
   ){
-    console.log("You win!");
-    humanChoice++;
+    return ("You win!");
   }else{
-    console.log("You lose!");
-    computerChoice++;
+    return ("You lose!");
   }
 
 }
-
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
-
-playRound(humanSelection, computerSelection);
-
 
 
 function playGame(){
@@ -65,8 +56,7 @@ function playGame(){
   if(humanScore > computerScore){
     alert("Congratulation! You won game");
   }else{
-    alert("Oh no! You lose Game. Try Again!");
-    location.reload;
+    alert("Oh no! You lose Game. Try Again!"); //Siempre pone que perdio aunque gane
   };
 
 }
