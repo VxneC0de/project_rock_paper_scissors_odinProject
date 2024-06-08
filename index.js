@@ -45,19 +45,31 @@ function playRound(humanChoice, computerChoice) {
 
 function playGame(){
   
-  for(let i = 0; i < 4; i++){
+  for(let i = 0; i < 5; i++){
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
 
     playRound(humanSelection, computerSelection);
 
+    if(playRound(humanSelection, computerSelection) === "You win!"){
+      console.log("You win!");
+      humanScore++;
+    }else if(playRound(humanSelection, computerSelection) === "You lose!"){
+      console.log("You lose!");
+      computerScore++;
+    }else{
+      console.log("It's tie!");
+    }
+
   }
 
   if(humanScore > computerScore){
     alert("Congratulation! You won game");
+  }else if(humanScore < computerScore){
+    alert("Oh no! You lose Game. Try Again!");
   }else{
-    alert("Oh no! You lose Game. Try Again!"); //Siempre pone que perdio aunque gane
-  };
+    alert("It's tie. Try again!");
+  }
 
 }
 
