@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> A new repository was created for the Odin Porject project "Project: Rock Paper Scissors". Rock Paper Scissors (also known as Rochambeau, Roshambo or Janken) is an easy and fun sleight-of-hand game that anyone can learn and enjoy. It's a great way to make minor decisions when you and a friend can't agree on something, or even just an entertaining way to pass the time. The great thing about the game is that almost anyone can learn the rules in a matter of seconds.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,56 +10,31 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS & JS.
+- Technologies used: Linux, Git Bash.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://vxnec0de.github.io/project_rock_paper_scissors_odinProject/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**Clone the repository in Git and run it from a browser..**
 
 ## Authors
 
-👤 **Arístides José Molina Pérez**
+👤 **Vanessa Carolina Rubio Cheing**
 
-- GitHub: [@aristides1000](https://github.com/aristides1000)
-- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/aristides-molina/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@VxneC0de](https://github.com/VxneC0de)
+- Instagram: [@v_rc20](https://www.instagram.com/v_rc20/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vanessa-rubio-7b7492293/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/VxneC0de/project_rock_paper_scissors_odinProject/issues).
 
 ## Show your support
 
@@ -67,9 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration: https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
 
 ## 📝 License
 

@@ -29,7 +29,7 @@ function playRound(humanChoice, computerChoice) {
   humanChoice = humanChoice.toLocaleLowerCase();
 
   if(humanChoice === computerChoice){
-    console.log("It's a tie!");
+    return ("It's a tie!");
   }else if(
     (humanChoice === "scissors" && computerChoice === "paper") || 
     (humanChoice === "rock" && computerChoice === "scissors") || 
