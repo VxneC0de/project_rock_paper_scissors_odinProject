@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# Project: Rock Paper Scissors
 
 > A new repository was created for the Odin Porject project "Project: Rock Paper Scissors". Rock Paper Scissors (also known as Rochambeau, Roshambo or Janken) is an easy and fun sleight-of-hand game that anyone can learn and enjoy. It's a great way to make minor decisions when you and a friend can't agree on something, or even just an entertaining way to pass the time. The great thing about the game is that almost anyone can learn the rules in a matter of seconds.
 
